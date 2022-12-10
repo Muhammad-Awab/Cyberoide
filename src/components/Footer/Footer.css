@@ -1,0 +1,12 @@
+.Footer{
+    background-color: #388087;
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.footer-head{
+    font-weight: bolder;
+    padding-left: 1.5rem;
+}

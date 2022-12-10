@@ -1,0 +1,19 @@
+.header{
+/* height: 60vh; */
+background-color: #388087;
+    
+}
+.head{
+    padding-top: 6rem;
+    
+}
+.sub-header{
+    /* display: grid; */
+    /* grid-template-columns: 25% 50% 20%; */
+    padding-bottom: 6rem;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
