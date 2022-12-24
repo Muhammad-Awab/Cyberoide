@@ -15,7 +15,7 @@ const Header = () => {
 
     <section className="container main-hero-contaier">
 <div className="row  header-main">
-    <div className="col-12 col-lg-6  d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
+    <div className="col-10 col-lg-6  d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
         <h1 className='display-4 header-heading'>
             Hello  I am a 
             <br/> 

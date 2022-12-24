@@ -1,6 +1,6 @@
 .main-hero-contaier{
 height: 40rem;
-margin-right: 39rem;
+margin-right: 25rem;
 margin-bottom: 7rem;
 }
 .header-heading{
@@ -16,13 +16,18 @@ margin-bottom: 7rem;
   color: #007bff;
 }
 .main-hero-img2{
-  height: 45rem;
+  height: 40rem;
 }
 @media (min-width: 1500px) {
   .main-hero-img2{
     margin: 0 0 0 45rem; 
  }
  
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1039px;
+}
 }
 @media (max-width: 900px) {
   .main-hero-contaier{
