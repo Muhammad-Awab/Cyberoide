@@ -11,6 +11,9 @@
   border: 0.4rem solid var(--color-primary-variant);
 
 }
+.testimonial-header{
+  margin-top: 9rem;
+}
 .testimonial{
   background: var(--color-bg-variant);
   text-align: center;

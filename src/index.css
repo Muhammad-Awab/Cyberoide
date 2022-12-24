@@ -16,6 +16,13 @@ body{
 h1,h2,h3,h4,h5{
   font-weight: 500;
 }
+:root {
+  --bgcolor: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: #828286;
+  --main-text-color: #333333;
+
+}
 a{
   color: var(--color-primary);
   transition:var(--transition);

@@ -1,23 +1,41 @@
 import React from 'react'
 import './Header.css'
+import Typical from 'react-typical'
+
+const steps = [
+    'React developer', 3000,
+    'Devops Engineer ', 3000,
+    'DevSecOps Engineer', 4000,
+    'Web Developer', 3000,
+   
+  ];
 const Header = () => {
   return (
-    <section className='header'>
-<div class=" text-center text-light sub-header">
-    <div className='header-section'>
-    <div className='col-md-7 '>
-            <h1 class="display-4 text-white head">
-            Create an awesome website for your next project
-            </h1>
-            <p class=" mb-5 lead">
-              Join our Coach community of like-minded individuals. Get your ticket to the 2021 event.
-            </p>
-            <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
-          </div>
-          </div>
-          </div>
+  
+
+    <section className="container main-hero-contaier">
+<div className="row  header-main">
+    <div className="col-12 col-lg-6  d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
+        <h1 className='display-4 header-heading'>
+            Hello  I am a 
+            <br/> 
+            <span className='typical-header'>
+            <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} />
+            </span>
+        </h1>
+        <p className='main-hero-para'>Lorem ipsum dolor sit amet consectetur, nulla suscipit vitae iusto, libero, ut aperiam ipsa aut dicta accusamus.</p>
+        <button type="button" class="btn btn-primary">Contact US</button>
+        {/* Main Header Right side */}
+    </div>
+       <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images order-md-last order-sm-last" >
+        <img src="assests/headerimg1.png" alt="heroimg" className='img-fluid main-hero-img2'/>
+        </div>    
+</div>
     </section>
+
+    
   )
 }
+
 
 export default Header

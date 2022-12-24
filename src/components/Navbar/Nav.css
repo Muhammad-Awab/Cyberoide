@@ -15,3 +15,47 @@ li{
     /* height: 2rem; */
     width: 12rem;
 }
+
+.header {
+    background-color: #00d2ff;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
+}
+.navbar-contact{
+    margin-left: inherit;
+}
+
+
+.btn-nva
+{
+    background-color: #007bff;
+    color: black;
+    
+}
+.btn-nva:hover
+{
+    background-color: #007bff;
+    color: black;
+    border: none;
+
+}
+.nav-item{
+font-size: 17px;
+}
+.nav-item a{
+    padding: 10px 20px;
+    
+}
+.nav-item:hover{
+    display: block;
+background-color: #6FB1FC;
+
+}
+@media (max-width: 900px) {
+    .nav-item a{
+        padding: 0px 0px;
+        
+    }
+    .nav-item{
+        background-color: transparent !important;
+    }
+}
