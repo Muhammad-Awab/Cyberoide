@@ -37,8 +37,7 @@ review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, repel
 const Testimonials = () => {
   return (
     <section id="testimonials" className='pb-5 testimonial-header'>
-      <h5 className='text-center mt-5'>Review From Clients</h5>
-      <h2 className='text-center'>Testimonials</h2>
+      <h2 className='text-center'>What Clients Say</h2>
       <Swiper className="container testimonials_container text-black"   modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}

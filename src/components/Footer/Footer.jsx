@@ -7,28 +7,38 @@ import './Footer.css'
 const Footer = () => {
   return (
 
+<>
+   <section>
 
-    <>
-        <section class="border-top mt-5 ">
-  
-  <div class="container  pt-3">
-        <div class="row">
-            <div class="col-md-2 text-center">
-               {/* @*<img src="/images/img.png" height="40"> */}
+    <div className='footer-section mt-5'>
+      <div className='footer-part'>
+        <h3 className='footer-logo'>Cyberoide</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur
+           adipisicing elit.</p>
+      </div>
+      
+      <div className=' footer-part'>
+       <h3>Services</h3>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+      </div>
 
-                <p class="text-secondary small">
-                    ©2022 pkversity
+      <div className='footer-part'>
+       <h3>Company</h3>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+       <p>Product Developmen</p>
+      </div>
 
-                </p>
-            </div>
-            <div class="col-md-8 text-center text-secondary">
-                <a href="aboutus" class="nav-link">About Us</a>
-                <a href="/#" class="nav-link">Contact Us</a>
-                <a href="/#" class="nav-link">Privacy Policy</a>
-                <a href="/#" class="nav-link">FAQ</a>
-                <a href="/#" class="nav-link">Partners</a>
-                <div class="col-3 offset-sm-4">
-        <form>
+       <div className='footer-part'>
+       <h3>Contact Us</h3>
+       <p>info@cybriod.com</p>
+       <p>+9232234234</p>
+       
+       <form>
           <ul class="list-unstyled d-flex icon-f">
         <li class="ms-3"><a class="text-white " href="/#"><AiOutlineTwitter className='icon'/></a></li>
         <li class="ms-3"><a class="text-white " href="/#"><AiFillLinkedin className='icon'/></a></li>
@@ -37,20 +47,13 @@ const Footer = () => {
       </ul>
         </form>
       </div>
-                <p class="small">© 2021 Company, Inc. All rights reserved.</p>
-            </div>
-        </div>
     </div>
-</section>
+   </section>
 
-   
-     
-
-
-    
-
-  
-    </>
+   <section className='border-top footer-base'>
+   <p class="text-center mt-4">© 2021 Cyberiod. All rights reserved.</p>
+   </section>
+   </>
   )
 }
 

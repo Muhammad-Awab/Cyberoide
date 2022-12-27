@@ -27,7 +27,7 @@ const Header = () => {
         <button type="button" class="btn btn-primary">Contact US</button>
         {/* Main Header Right side */}
     </div>
-       <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images order-md-last order-sm-last" >
+       <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images " >
         <img src="assests/headerimg1.png" alt="heroimg" className='img-fluid main-hero-img2'/>
         </div>    
 </div>

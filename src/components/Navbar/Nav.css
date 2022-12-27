@@ -8,6 +8,9 @@ li{
     background-color: #388087;
     
 }
+.navbar-toggler{
+    float: right;
+}
 .navbar{
     color: white;
 }
