@@ -5,8 +5,9 @@ import './Services.css'
 
 
 const Services = () => {
-  const [serviceData, setServiceData] = useState(ServicesApi);
+  const [serviceData] = useState(ServicesApi);
 
+  
 
   return (
     <>
@@ -23,7 +24,7 @@ const Services = () => {
      	<div class="row">
                 {
                   serviceData.map((curElem) => {
-                    const { id,logo, title, description } = curElem;
+                    const { id,logo, title } = curElem;
                     return (
                       <div class="col-lg-4 col-xs-12 text-center" key={id}>
 				<div class="box">

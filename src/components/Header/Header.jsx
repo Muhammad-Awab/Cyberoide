@@ -3,13 +3,13 @@ import './Header.css'
 import { Link } from 'react-router-dom';
 // import Typical from 'react-typical'
 
-const steps = [
-    'React developer', 3000,
-    'Devops Engineer ', 3000,
-    'DevSecOps Engineer', 4000,
-    'Web Developer', 3000,
+// const steps = [
+//     'React developer', 3000,
+//     'Devops Engineer ', 3000,
+//     'DevSecOps Engineer', 4000,
+//     'Web Developer', 3000,
    
-  ];
+//   ];
 const Header = () => {
   return (
   
