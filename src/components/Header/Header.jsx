@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom';
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 
 const steps = [
     'React developer', 3000,
@@ -21,7 +21,8 @@ const Header = () => {
             Hello  I am a 
             <br/> 
             <span className='typical-header'>
-            <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} />
+              Web Developer
+            {/* <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} /> */}
             </span>
         </h1>
         <p className='main-hero-para'>Lorem ipsum dolor sit amet consectetur, nulla suscipit vitae iusto, libero, ut aperiam ipsa aut dicta accusamus.</p>

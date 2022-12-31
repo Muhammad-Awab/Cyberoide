@@ -28,7 +28,12 @@ li{
 justify-content: space-between;
 list-style: none;
 padding: 0;
-margin: 0;}
+margin: 0;
+margin: auto;
+width: 50%;
+
+
+}
 .header {
     background-color: #00d2ff;
     background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
