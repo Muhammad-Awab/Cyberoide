@@ -29,6 +29,25 @@ margin-bottom: 7rem;
     max-width: 1039px;
 }
 }
+@media (max-width: 990px){
+.container {
+    max-width: 1039px;
+}
+.main-hero-contaier{
+  width: 100%;
+    }
+    .main-hero-img2{
+      margin-top: 2rem; 
+      height: 15rem;
+      margin-bottom: 3rem;
+   }
+   .header-heading{
+    font-size: 2.5rem;
+   }
+   .main-hero-para{
+  font-size: 15px;
+   } 
+}
 @media (max-width: 900px) {
   .main-hero-contaier{
 width: 100%;

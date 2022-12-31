@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import ServicesApi from './../../Api/ServicesApi'
+import { Link } from 'react-router-dom';
 import './Services.css'
-import ComponentModal from '../Modal/Modal';
-import Button from 'react-bootstrap/Button';
+
 
 const Services = () => {
   const [serviceData, setServiceData] = useState(ServicesApi);
-  const [modalShow, setModalShow] = useState(false);
+
 
   return (
     <>
@@ -29,14 +29,15 @@ const Services = () => {
 				<div class="box">
                     <i class={logo} aria-hidden="true"></i>
 					<div class="box-title">
+        <i class="fa-solid fa-grill-hot"></i>
 						<h3>{title}</h3>
 					</div>
 					<div class="box-text">
 						<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
 					</div>
 					<div class="box-btn">
-          <Button variant="primary" onClick={() => setModalShow(true)}> Learn More </Button>
-      <ComponentModal  show={modalShow} onHide={() => setModalShow(false)} title={title}/>
+          <Link class="btn btn-primary "  to="/contact" role="button">Learn More</Link>
+      
 
   					</div>
 				 </div>

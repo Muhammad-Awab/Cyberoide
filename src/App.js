@@ -1,24 +1,27 @@
 
-import React from 'react'
-import Nav from './components/Navbar/Nav'
-import Header from './components/Header/Header';
-import Services from './components/Services/Services';
-import ContactUs from './components/ContactUs/ContactUs';
-import Footer from './components/Footer/Footer';
-import Project from './components/Projects/Project';
-import Testimonial from './components/Testimonial/Testimonial';
-import Portfolio from './components/Portfolio/Portfolio';
+import Home from './Home';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from "react-router-dom";
+import Nav from './components/Navbar/Nav';
+
+import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 function App() {
   return (
     <>
-      <Nav/> 
-      <Header/>
-      <Services/>
-      <Portfolio/>
-      {/* <Project/> */}
-    <Testimonial/>
-      <ContactUs/>
-      <Footer/>
+  
+    <BrowserRouter>
+    
+     <Routes>
+     <Route path="/"  element={<Nav/>}/>
+     <Route  index  element={<Home/>}/>
+     <Route path='/contact' element={<ContactUsPage/>} />
+     </Routes>
+     </BrowserRouter>
     </>
   );
 }

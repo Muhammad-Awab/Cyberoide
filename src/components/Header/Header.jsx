@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom';
 import Typical from 'react-typical'
 
 const steps = [
@@ -24,7 +25,7 @@ const Header = () => {
             </span>
         </h1>
         <p className='main-hero-para'>Lorem ipsum dolor sit amet consectetur, nulla suscipit vitae iusto, libero, ut aperiam ipsa aut dicta accusamus.</p>
-        <button type="button" class="btn btn-primary">Contact US</button>
+        <Link class="btn btn-primary "  to="/contact" role="button">Contact Us</Link>
         {/* Main Header Right side */}
     </div>
        <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images " >
