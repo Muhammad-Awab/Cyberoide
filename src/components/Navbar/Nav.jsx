@@ -10,17 +10,18 @@ const Nav = () => {
     <header class="header sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
           <Link class="navbar-brand" to="/">
-            <strong class="h6 mb-0 font-weight-bold text-uppercase">Cyberiod.</strong></Link>
+            <strong class="h6 mb-0 font-weight-bold text-uppercase">Cyberoide.</strong></Link>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
         <div class="container navbar-contact">
             <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto header-nav-list">
-                    <li class="nav-item "><Link class="nav-link" to="/" >Home <span class="sr-only">(current)</span></Link></li>
+                    <li class="nav-item "><Link class="nav-link"  href="" to="/" >Home <span class="sr-only">(current)</span></Link></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio" >Portfolio</a></li>
-                    <li class="nav-item"><Link class="nav-link" to="/contact" >Gallery</Link></li>
+                    <li class="nav-item"><Link class="nav-link" to="/#" >Gallery</Link></li>
                 </ul>
             </div>
         </div>

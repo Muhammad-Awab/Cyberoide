@@ -7,7 +7,6 @@ import './Services.css'
 const Services = () => {
   const [serviceData] = useState(ServicesApi);
 
-  
 
   return (
     <>
@@ -20,29 +19,29 @@ const Services = () => {
             </h1>
           </div>
           <div class="social-box">
-    <div class="container">
-     	<div class="row">
+            <div class="container">
+              <div class="row">
                 {
                   serviceData.map((curElem) => {
-                    const { id,logo, title } = curElem;
+                    const { id, logo, title, description } = curElem;
                     return (
                       <div class="col-lg-4 col-xs-12 text-center" key={id}>
-				<div class="box">
-                    <i class={logo} aria-hidden="true"></i>
-					<div class="box-title">
-        <i class="fa-solid fa-grill-hot"></i>
-						<h3>{title}</h3>
-					</div>
-					<div class="box-text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-					</div>
-					<div class="box-btn">
-          <Link class="btn btn-primary "  to="/contact" role="button">Learn More</Link>
-      
+                        <div class="box">
+                          <i class={logo} aria-hidden="true"></i>
+                          <div class="box-title">
+                            <i class="fa-solid fa-grill-hot"></i>
+                            <h3>{title}</h3>
+                          </div>
+                          <div class="box-text">
+                            <span>{description}</span>
+                          </div>
+                          <div class="box-btn">
+                            <Link class="btn btn-primary " to="/contact" role="button">Let's Connect</Link>
 
-  					</div>
-				 </div>
-			</div>	 
+
+                          </div>
+                        </div>
+                      </div>
                     )
                   })
                 }

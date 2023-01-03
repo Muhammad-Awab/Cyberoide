@@ -1,0 +1,18 @@
+
+.social-link {
+  border: 1px solid #ddd;
+
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+.social   li {
+  margin-left: 0rem;
+}
+
+.social-link:hover, .social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}

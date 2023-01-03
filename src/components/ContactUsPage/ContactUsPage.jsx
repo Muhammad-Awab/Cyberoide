@@ -25,11 +25,10 @@ const ContactUsPage = () => {
                             <div className="contact-u d-flex gap-5">
                                 <div className="contact-leftside  col-lg-5">
                                     <h2 className="main-heading fw-bold">
-                                        Connect With Our <br /> Sales Team.
+                                        Let's Connect
                                     </h2>
                                     <p className="main-hero-para">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Deserunt eaque alias similique.
+                                    Our vigilant sales agents are just a single click away and would love to respond your queries. We are available 24/7
                                     </p>
                                     <figure>
                                         <img
@@ -58,7 +57,7 @@ const ContactUsPage = () => {
                                             </div>
 
                                             <div className="col-12 col-lg-5 contact-input-feild">
-                                            <label htmlFor="" className="ml-1">Company Size*</label>
+                                            <label htmlFor="" className="ml-1">Company Name*</label>
 
                                                 <input
                                                     type="text"
@@ -98,7 +97,7 @@ const ContactUsPage = () => {
                                         </div>
                                         <div className="row">
                                             <div className="col-12 col-lg-5 contact-input-feild">
-                                            <label htmlFor="" className="ml-1">Contact Us*</label>
+                                            <label htmlFor="" className="ml-1">Contact No.*</label>
 
                                                 <input
                                                     type="text"
@@ -129,9 +128,11 @@ const ContactUsPage = () => {
 
                                                 <select class="form-select contact-input-feild-sub1" aria-label="Default select example">
                                                     <option selected>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                    <option value="1">Technical Recruitment</option>
+                                                    <option value="2">DevSecOps</option>
+                                                    <option value="3"> Content Writing</option>
+                                                    <option value="4"> Software Quality Assurance</option>
+                                                    <option value="5"> Custom Application Development</option>
                                                 </select>
                                             </div>
                                         </div>

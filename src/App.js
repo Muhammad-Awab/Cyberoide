@@ -1,8 +1,8 @@
 
 import Home from './Home';
 import React from "react";
+import AboutUs from './components/About Us/AboutUs';
 import {
-  
   Routes,
   Route,
   BrowserRouter,
@@ -18,6 +18,7 @@ function App() {
     
      <Routes>
      <Route path="/"  element={<Nav/>}/>
+     <Route path="/about"  element={<AboutUs/>}/>
      <Route  index  element={<Home/>}/>
      <Route path='/contact' element={<ContactUsPage/>} />
      </Routes>

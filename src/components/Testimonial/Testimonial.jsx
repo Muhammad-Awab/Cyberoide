@@ -15,8 +15,9 @@ import 'swiper/css/scrollbar';
 const data=[
   {
 avatar:"assests/avatar1.jpg",
-name:'Tina Snow',
-review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, repellat maxime! Minima nobis ducimus cum veniam repudiandae voluptatibus atque distinctio possimus corporis ipsum nam adipisci similique consequuntur, modi nemo esse'
+name:'Romel Sardar ',
+review:'Excellent work till now i have placed more order for him and he has accomplished all the task as per required. we will continue to collaborate. '
+
   },
   {
 avatar:"assests/avatar2.jpg",

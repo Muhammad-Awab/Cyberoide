@@ -21,11 +21,11 @@ const Header = () => {
             Hello  I am a 
             <br/> 
             <span className='typical-header'>
-              Web Developer
             {/* <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} /> */}
+            Web Developer
             </span>
         </h1>
-        <p className='main-hero-para'>Lorem ipsum dolor sit amet consectetur, nulla suscipit vitae iusto, libero, ut aperiam ipsa aut dicta accusamus.</p>
+        <p className='main-hero-para'> <b> <span className='text-primary' >CYBEROIDE</span> </b> one of the effecient product development organization, has collaborated with numerous corporations and start-ups to develop exceptional products and experiences while providing best solutions to their most challenging problems.</p>
         <Link class="btn btn-primary "  to="/contact" role="button">Contact Us</Link>
         {/* Main Header Right side */}
     </div>
