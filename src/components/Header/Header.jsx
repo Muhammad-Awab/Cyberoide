@@ -18,7 +18,7 @@ const Header = () => {
 <div className="row  header-main">
     <div className="col-10 col-lg-6  d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
         <h1 className='display-4 header-heading'>
-            Hello  I am a 
+            Hi  I am a 
             <br/> 
             <span className='typical-header'>
             {/* <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} /> */}
